@@ -57,6 +57,9 @@
     </header>
 
     <main role="main" class=" cover">
+      <div class="p-1 ">
+        <input type="text" placeholder="Search.." onkeyup="myFunction()" id="search-input">
+      </div>
       <div id="card-wrapper" class="row row-cols-4 justify-content-center" style="color: #000">
       </div>
       <div id="contribute" class="p-4">
@@ -104,7 +107,31 @@
 
     return array;
   }
+
+  function myFunction() {
+    var input, filter, cards, cardContainer, h5, title, i;
+    input = document.getElementById("search-input");
+    filter = input.value.toUpperCase();
+    cardContainer = document.getElementById("card-wrapper");
+    cards = cardContainer.getElementsByClassName("card");
+    for (i = 0; i < cards.length; i++) {
+      title = cards[i].querySelector(".card-body h5.card-title");
+      if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+        cards[i].style.display = "block";
+      } else {
+        cards[i].style.display = "none";
+      }
+      console.log(cards[i])
+    }
+  }
+
   $(document).ready(function () {
+    //     $('#search-input').change( function () {
+    //       console.log("changed")
+    //     $('.card').show();
+    //     var filter = $(this).val(); // get the value of the input, which we filter on
+    //     $('.container').find(".card-title:not(:contains(" + filter + "))").parent().css('display','none');
+    // });
     $.getJSON("/terms.json", function (data) {
       shuffle(data.terms)
       $.each(data.terms, function (index, item) {
