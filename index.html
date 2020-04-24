@@ -5,63 +5,38 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Jekyll v3.8.6">
-  <title>startup-lingo.com</title>
-
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-  <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-  <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-  <link rel="manifest" href="/docs/4.4/assets/img/favicons/manifest.json">
-  <link rel="mask-icon" href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
-  <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon.ico">
-  <meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
-  <meta name="theme-color" content="#563d7c">
-
-
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
-  <!-- Custom styles for this template -->
-  <link href="cover.css" rel="stylesheet">
 </head>
 
 <body class="text-center">
-  <div class=" d-flex h-100 p-3 mx-auto flex-column">
-    <header class="masthead mb-auto">
-      <div class="inner">
-        <h3 class="masthead-brand"></h3>
-        <nav class="nav nav-masthead justify-content-center">
-          <a class="nav-link" href="#contribute">Contribute</a>
-        </nav>
-      </div>
+  <div class="d-flex h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <nav class="navbar">
+        <div class="navbar-nav">
+        </div>
+        <div class="navbar-nav">
+          <div class="nav-item">
+            <a class="nav-link" href="#contribute">contribute</a>
+          </div>
+        </div>
+      </nav>
     </header>
 
-    <main role="main" class=" cover">
+    <main role="main">
+
+      <div class="pb-5">
+        <input type="text" class="" placeholder="Search" onkeyup="myFunction()" id="search-input">
+      </div>
+
       <div id="card-wrapper" class="row row-cols-4 justify-content-center" style="color: #000">
       </div>
+
       <div id="contribute" class="p-4">
         <h3>
-          Suggestions
+          Contribute
         </h3>
         Send a Pull Request!
         <br>
@@ -69,18 +44,16 @@
           github.com/hbagdi/startup-lingo.com
         </a>
       </div>
+
     </main>
 
-    <footer class="mastfoot mt-auto">
+    <footer class="mt-auto">
       <div class="inner">
-        <p>
-          Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a
-            href="https://twitter.com/mdo">@mdo</a>.
-          <br>
-          A project by <a href="https://hbagdi.yolo42.com/">hbagdi</a>
+        A project by <a href="https://hbagdi.yolo42.com/">hbagdi</a>
         </p>
       </div>
     </footer>
+
   </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -104,14 +77,36 @@
 
     return array;
   }
+
+  function myFunction() {
+    var input, filter, cards, cardContainer, h5, title, i;
+    input = document.getElementById("search-input");
+    filter = input.value.toUpperCase();
+    cardContainer = document.getElementById("card-wrapper");
+    cards = cardContainer.getElementsByClassName("card");
+    for (i = 0; i < cards.length; i++) {
+      title = cards[i].querySelector(".card-body h5.card-title");
+      if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+        cards[i].style.display = "block";
+      } else {
+        cards[i].style.display = "none";
+      }
+      console.log(cards[i])
+    }
+  }
+
   $(document).ready(function () {
     $.getJSON("/terms.json", function (data) {
       shuffle(data.terms)
       $.each(data.terms, function (index, item) {
-        $('#card-wrapper').append(`<div class="card col-2 border-0 rounded-0 m-1" >
+        var description = ''
+        if (item.description != undefined) {
+          description = item.description
+        }
+        $('#card-wrapper').append(`<div class="card border-0 bg-light rounded-3 m-1" >
           <div class="card-body py-1">
             <h5 class="card-title">`+ item.term + `</h5>
-            <!-- <p class="card-text">Looks good to me.</p> -->
+             <p class="card-text">`+ description + `</p>
           </div>
         </div>`);
       });
