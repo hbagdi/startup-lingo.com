@@ -1,0 +1,772 @@
+{
+  "terms": [
+    {
+      "term": "LOB (Line of Business)"
+    },
+    {
+      "term": "double-click"
+    },
+    {
+      "term": "EB"
+    },
+    {
+      "term": "deck"
+    },
+    {
+      "term": "TTBOMK"
+    },
+    {
+      "term": "github"
+    },
+    {
+      "term": "CI/CD"
+    },
+    {
+      "term": "release"
+    },
+    {
+      "term": "patch release"
+    },
+    {
+      "term": "blocker"
+    },
+    {
+      "term": "standup"
+    },
+    {
+      "term": "retro"
+    },
+    {
+      "term": "planning"
+    },
+    {
+      "term": "backlog"
+    },
+    {
+      "term": "grooming"
+    },
+    {
+      "term": "fire"
+    },
+    {
+      "term": "p0"
+    },
+    {
+      "term": "DNS"
+    },
+    {
+      "term": "AWS"
+    },
+    {
+      "term": "cloud"
+    },
+    {
+      "term": "jenkins"
+    },
+    {
+      "term": "PR (Pull Request)"
+    },
+    {
+      "term": "bug"
+    },
+    {
+      "term": "Jira"
+    },
+    {
+      "term": "Confluence"
+    },
+    {
+      "term": "offsite"
+    },
+    {
+      "term": "all-hands"
+    },
+    {
+      "term": "open-source"
+    },
+    {
+      "term": "UI/UX"
+    },
+    {
+      "term": "repo/repository"
+    },
+    {
+      "term": "SSO"
+    },
+    {
+      "term": "pagerduty"
+    },
+    {
+      "term": "frontend"
+    },
+    {
+      "term": "NoSQL"
+    },
+    {
+      "term": "SQL"
+    },
+    {
+      "term": "MQL"
+    },
+    {
+      "term": "SAL"
+    },
+    {
+      "term": "TAM"
+    },
+    {
+      "term": "PS"
+    },
+    {
+      "term": "ELT"
+    },
+    {
+      "term": "sync up"
+    },
+    {
+      "term": "ARR"
+    },
+    {
+      "term": "unicorn"
+    },
+    {
+      "term": "$100M ARR"
+    },
+    {
+      "term": "10x engineer"
+    },
+    {
+      "term": "API"
+    },
+    {
+      "term": "burn rate"
+    },
+    {
+      "term": "FAANG"
+    },
+    {
+      "term": "ABM"
+    },
+    {
+      "term": "CRM"
+    },
+    {
+      "term": "CAC"
+    },
+    {
+      "term": "NDR"
+    },
+    {
+      "term": "hiking"
+    },
+    {
+      "term": "IPA"
+    },
+    {
+      "term": "VC"
+    },
+    {
+      "term": "burning man"
+    },
+    {
+      "term": "scalable"
+    },
+    {
+      "term": "SLA"
+    },
+    {
+      "term": "churn"
+    },
+    {
+      "term": "runway"
+    },
+    {
+      "term": "product market fit"
+    },
+    {
+      "term": "MVP"
+    },
+    {
+      "term": "ramen profitability"
+    },
+    {
+      "term": "KPI"
+    },
+    {
+      "term": "OKR"
+    },
+    {
+      "term": "GSK"
+    },
+    {
+      "term": "GSKO"
+    },
+    {
+      "term": "AMT"
+    },
+    {
+      "term": "PO"
+    },
+    {
+      "term": "BoD"
+    },
+    {
+      "term": "VP"
+    },
+    {
+      "term": "ETA"
+    },
+    {
+      "term": "FTE"
+    },
+    {
+      "term": "FY"
+    },
+    {
+      "term": "HTTP"
+    },
+    {
+      "term": "DM me"
+    },
+    {
+      "term": "slack"
+    },
+    {
+      "term": "IPO"
+    },
+    {
+      "term": "MRR"
+    },
+    {
+      "term": "NDA"
+    },
+    {
+      "term": "ISO"
+    },
+    {
+      "term": "NSO"
+    },
+    {
+      "term": "OOO"
+    },
+    {
+      "term": "WFH"
+    },
+    {
+      "term": "PM"
+    },
+    {
+      "term": "PMM"
+    },
+    {
+      "term": "PTO"
+    },
+    {
+      "term": "QA"
+    },
+    {
+      "term": "ROI"
+    },
+    {
+      "term": "SEO"
+    },
+    {
+      "term": "SME"
+    },
+    {
+      "term": "SMB"
+    },
+    {
+      "term": "YOY"
+    },
+    {
+      "term": "VPN"
+    },
+    {
+      "term": "BHAG"
+    },
+    {
+      "term": "CTA"
+    },
+    {
+      "term": "EOD"
+    },
+    {
+      "term": "ESOP"
+    },
+    {
+      "term": "LTM"
+    },
+    {
+      "term": "POC"
+    },
+    {
+      "term": "PR"
+    },
+    {
+      "term": "QoQ"
+    },
+    {
+      "term": "SaaS"
+    },
+    {
+      "term": "TS"
+    },
+    {
+      "term": "Liq Pref"
+    },
+    {
+      "term": "H1/H2"
+    },
+    {
+      "term": "bubble"
+    },
+    {
+      "term": "cliff"
+    },
+    {
+      "term": "hacking"
+    },
+    {
+      "term": "launch"
+    },
+    {
+      "term": "low hanging fruit"
+    },
+    {
+      "term": "pivot"
+    },
+    {
+      "term": "thought leader"
+    },
+    {
+      "term": "valuation"
+    },
+    {
+      "term": "USP"
+    },
+    {
+      "term": "acquistion"
+    },
+    {
+      "term": "IMO"
+    },
+    {
+      "term": "IMHO"
+    },
+    {
+      "term": "LMK"
+    },
+    {
+      "term": "CMIMW"
+    },
+    {
+      "term": "SMART"
+    },
+    {
+      "term": "TL;DR"
+    },
+    {
+      "term": "WIIFM"
+    },
+    {
+      "term": "WSYWIG"
+    },
+    {
+      "term": "ADA"
+    },
+    {
+      "term": "SWOT"
+    },
+    {
+      "term": "audit"
+    },
+    {
+      "term": "soc2"
+    },
+    {
+      "term": "S-1"
+    },
+    {
+      "term": "GTM"
+    },
+    {
+      "term": "round"
+    },
+    {
+      "term": "stock options"
+    },
+    {
+      "term": "series a/b/c/..."
+    },
+    {
+      "term": "IC"
+    },
+    {
+      "term": "AE"
+    },
+    {
+      "term": "SRE"
+    },
+    {
+      "term": "NPS"
+    },
+    {
+      "term": "CSAT"
+    },
+    {
+      "term": "agile"
+    },
+    {
+      "term": "TCV"
+    },
+    {
+      "term": "ACV"
+    },
+    {
+      "term": "metrics"
+    },
+    {
+      "term": "security"
+    },
+    {
+      "term": "service"
+    },
+    {
+      "term": "BAU"
+    },
+    {
+      "term": "LTV"
+    },
+    {
+      "term": "OTOH"
+    },
+    {
+      "term": "disuption"
+    },
+    {
+      "term": "transformation"
+    },
+    {
+      "term": "historic"
+    },
+    {
+      "term": "expense"
+    },
+    {
+      "term": "SDLC"
+    },
+    {
+      "term": "forecast call"
+    },
+    {
+      "term": "1:1"
+    },
+    {
+      "term": "SDR"
+    },
+    {
+      "term": "headcount"
+    },
+    {
+      "term": "renewal"
+    },
+    {
+      "term": "GTM"
+    },
+    {
+      "term": "beta"
+    },
+    {
+      "term": "BTW"
+    },
+    {
+      "term": "AFK"
+    },
+    {
+      "term": "CDN"
+    },
+    {
+      "term": "white-label"
+    },
+    {
+      "term": "ageism"
+    },
+    {
+      "term": "diversity"
+    },
+    {
+      "term": "pipeline"
+    },
+    {
+      "term": "EM Engineering Manager"
+    },
+    {
+      "term": "master slave"
+    },
+    {
+      "term": "escalation"
+    },
+    {
+      "term": "funnel"
+    },
+    {
+      "term": "inbound"
+    },
+    {
+      "term": "outbound"
+    },
+    {
+      "term": "EMEA"
+    },
+    {
+      "term": "APAC"
+    },
+    {
+      "term": "microdosing"
+    },
+    {
+      "term": "TBH"
+    },
+    {
+      "term": "NBD"
+    },
+    {
+      "term": "AF"
+    },
+    {
+      "term": "FUD"
+    },
+    {
+      "term": "FYI"
+    },
+    {
+      "term": "YW"
+    },
+    {
+      "term": "404"
+    },
+    {
+      "term": "PEBCAK"
+    },
+    {
+      "term": "IIRC"
+    },
+    {
+      "term": "TBD"
+    },
+    {
+      "term": "FWIW"
+    },
+    {
+      "term": "KISS"
+    },
+    {
+      "term": "TIGTBABMDYT"
+    },
+    {
+      "term": "uptime"
+    },
+    {
+      "term": "DAU"
+    },
+    {
+      "term": "North star"
+    },
+    {
+      "term": "sticky"
+    },
+    {
+      "term": "hockey stick"
+    },
+    {
+      "term": "decacorn"
+    },
+    {
+      "term": "freemium"
+    },
+    {
+      "term": "let's take this offline"
+    },
+    {
+      "term": "synergy"
+    },
+    {
+      "term": "dogfood"
+    },
+    {
+      "term": "AI/ML"
+    },
+    {
+      "term": "action items"
+    },
+    {
+      "term": "the valley"
+    },
+    {
+      "term": "equity"
+    },
+    {
+      "term": "markte penetration"
+    },
+    {
+      "term": "iterate fast"
+    },
+    {
+      "term": "serial enterpreneur"
+    },
+    {
+      "term": "value-add"
+    },
+    {
+      "term": "flywheel"
+    },
+    {
+      "term": "ownership"
+    },
+    {
+      "term": "lean"
+    },
+    {
+      "term": "onboard"
+    },
+    {
+      "term": "silo"
+    },
+    {
+      "term": "mission critical"
+    },
+    {
+      "term": "MQ"
+    },
+    {
+      "term": "stealth"
+    },
+    {
+      "term": "vaporware"
+    },
+    {
+      "term": "hacker news"
+    },
+    {
+      "term": "IoT"
+    },
+    {
+      "term": "Guru"
+    },
+    {
+      "term": "Growth hacker"
+    },
+    {
+      "term": "social"
+    },
+    {
+      "term": "intel"
+    },
+    {
+      "term": "kill-sheets"
+    },
+    {
+      "term": "platform agnostic"
+    },
+    {
+      "term": "bootstrap"
+    },
+    {
+      "term": "rocketship"
+    },
+    {
+      "term": "bandwidth"
+    },
+    {
+      "term": "deep dive"
+    },
+    {
+      "term": "move the needle"
+    },
+    {
+      "term": "quick win"
+    },
+    {
+      "term": "quota"
+    },
+    {
+      "term": "FOMO"
+    },
+    {
+      "term": "brand"
+    },
+    {
+      "term": "framework"
+    },
+    {
+      "term": "game changer"
+    },
+    {
+      "term": "engangement"
+    },
+    {
+      "term": "crushing it"
+    },
+    {
+      "term": "remote"
+    },
+    {
+      "term": "zoom"
+    },
+    {
+      "term": "e2e"
+    },
+    {
+      "term": "fail fast"
+    },
+    {
+      "term": "tech stack"
+    },
+    {
+      "term": "bleeding edge"
+    },
+    {
+      "term": "exit strategy"
+    },
+    {
+      "term": "deliverable"
+    },
+    {
+      "term": "salesforce"
+    },
+    {
+      "term": "lead gen / demand gen"
+    },
+    {
+      "term": "next-gen"
+    },
+    {
+      "term": "latency"
+    },
+    {
+      "term": "architecture"
+    },
+    {
+      "term": "automate"
+    },
+    {
+      "term": "innovation"
+    },
+    {
+      "term": "subscriptions"
+    },
+    {
+      "term": "roadmap"
+    },
+    {
+      "term": "organic"
+    },
+    {
+      "term": "LGTM"
+    },
+    {
+      "term": "SFDC"
+    }
+  ]
+}
