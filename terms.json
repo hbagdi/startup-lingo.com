@@ -1,13 +1,12 @@
 {
   "terms": [
     {
-      "term": "LOB (Line of Business)"
+      "term": "LOB",
+      "description": "Line Of Business"
     },
     {
-      "term": "double-click"
-    },
-    {
-      "term": "EB"
+      "term": "EB",
+      "description": "Enterprise Buyer"
     },
     {
       "term": "deck"
@@ -16,16 +15,13 @@
       "term": "TTBOMK"
     },
     {
-      "term": "github"
+      "term": "Github"
     },
     {
       "term": "CI/CD"
     },
     {
       "term": "release"
-    },
-    {
-      "term": "patch release"
     },
     {
       "term": "blocker"
@@ -61,10 +57,10 @@
       "term": "cloud"
     },
     {
-      "term": "jenkins"
+      "term": "Jenkins"
     },
     {
-      "term": "PR (Pull Request)"
+      "term": "PR"
     },
     {
       "term": "bug"
@@ -79,7 +75,7 @@
       "term": "offsite"
     },
     {
-      "term": "all-hands"
+      "term": "all hands"
     },
     {
       "term": "open-source"
@@ -88,19 +84,16 @@
       "term": "UI/UX"
     },
     {
-      "term": "repo/repository"
+      "term": "repo"
     },
     {
       "term": "SSO"
     },
     {
-      "term": "pagerduty"
+      "term": "Pagerduty"
     },
     {
       "term": "frontend"
-    },
-    {
-      "term": "NoSQL"
     },
     {
       "term": "SQL"
@@ -130,16 +123,10 @@
       "term": "unicorn"
     },
     {
-      "term": "$100M ARR"
-    },
-    {
-      "term": "10x engineer"
-    },
-    {
       "term": "API"
     },
     {
-      "term": "burn rate"
+      "term": "burn-rate"
     },
     {
       "term": "FAANG"
@@ -313,7 +300,7 @@
       "term": "TS"
     },
     {
-      "term": "Liq Pref"
+      "term": "Liquidation preference"
     },
     {
       "term": "H1/H2"
@@ -382,7 +369,7 @@
       "term": "audit"
     },
     {
-      "term": "soc2"
+      "term": "SOC-2"
     },
     {
       "term": "S-1"
@@ -499,10 +486,10 @@
       "term": "pipeline"
     },
     {
-      "term": "EM Engineering Manager"
+      "term": "EM"
     },
     {
-      "term": "master slave"
+      "term": "master-slave"
     },
     {
       "term": "escalation"
@@ -607,7 +594,7 @@
       "term": "equity"
     },
     {
-      "term": "markte penetration"
+      "term": "market penetration"
     },
     {
       "term": "iterate fast"
@@ -646,7 +633,7 @@
       "term": "vaporware"
     },
     {
-      "term": "hacker news"
+      "term": "Hacker News"
     },
     {
       "term": "IoT"
@@ -655,7 +642,7 @@
       "term": "Guru"
     },
     {
-      "term": "Growth hacker"
+      "term": "growth hacker"
     },
     {
       "term": "social"
@@ -736,7 +723,7 @@
       "term": "salesforce"
     },
     {
-      "term": "lead gen / demand gen"
+      "term": "lead-gen/demand-gen"
     },
     {
       "term": "next-gen"
@@ -757,16 +744,22 @@
       "term": "subscriptions"
     },
     {
-      "term": "roadmap"
+      "term": "roadmap",
+      "description": "The excuse your PM uses for basic missing features. Also, make your users feel that they have been heard."
     },
     {
       "term": "organic"
     },
     {
-      "term": "LGTM"
+      "term": "LGTM",
+      "description": "The term the reviewer of your work uses when he can't understand anything at all."
     },
     {
-      "term": "SFDC"
+      "term": "SFDC",
+      "description": "The system of chaos and the reason your sales team is under performing."
+    },
+    {
+      "term": "double-click"
     }
   ]
 }
